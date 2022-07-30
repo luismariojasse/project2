@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    margin: 7px;
+}
+.vo{
+    text-align: center;
+}
+.par{
+    text-align: center;
+}
+.bu{
+    width: 100px;
+
+}
+body{
+    background-color: skyblue;
+}
+.main{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color:rgb(19, 20, 20);    
+}
+
+.lina{
+    margin: 7px;
+    font-weight:bold ;
+}
+.lina:hover{
+    background-color: rgb(237, 242, 245);
+}

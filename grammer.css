@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main,.main1{
+    display:none;
+}
+.but,.but1{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+.hid{
+    width: 70px;
+    margin: 7px;
+    background-color: rgb(33, 147, 162);
+}
+p{
+    padding: 14px;
+    margin-left: 8px;
+}
+
+.lina{
+    margin: 7px;
+    font-weight:bold ;
+}
+.lina:hover{
+    background-color: rgb(82, 194, 250);
+}
+
+
+a{
+    text-decoration: none;
+    color:rgb(2, 38, 48);    
+}
+
+.dt{
+    width: 60px;
+}
+.disp{
+    display:none
+}

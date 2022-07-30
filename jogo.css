@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.go{
+    width: 214px;
+    height: 200px;
+    display:none;
+    margin: auto;
+}
+.cabe{
+    text-align: center;
+    color: rgb(31, 37, 108);
+}
+.k{
+    font-size: 20px;
+    color:red;
+}
+.repi,.fi,.repi1{
+    display: none;
+    width: 70px;
+    height: 50px;
+    margin: auto;
+
+}
+.lp{
+    text-align: center;
+    font-size: 15px;
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+.cone{
+    z-index: 1;
+}
+.contei{
+font-family: 'Courier New';
+}
+
+.conte{
+    margin-left:5%;
+    margin-top: 10px;
+    display: flex;
+    width:300px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(2, 38, 48);    
+}
+
+.lina{
+    margin: 7px;
+    font-weight:bold ;
+}
+.lina:hover{
+    background-color: rgb(82, 194, 250);
+}
+button{
+    width: 60px;
+    margin: 7px;
+}
+.dar{
+    width:300px;
+    height: 30px;
+}
+.pass{
+    width: 60px;
+}
+.disp{
+    display:none
+}
