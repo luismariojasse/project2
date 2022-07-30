@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogos de palavras</title>
+    <link rel="stylesheet" href="jogo.css"
+
+</head>
+<body class="contei">
+   
+    <main class="conte">
+        <a class="lina" href="index.html">Home</a>
+        <a class="lina" href="estudo.html">Palavras</a>
+        <a class="lina" href="grammer.html">Gramática</a>
+        <a class="lina" href="prattica1.html">praticar</a>
+        <a class="lina" href="#">Jogos</a>
+      </main> 
+      <hr>
+      <div id="dt">
+      <p>Digite o pin para disponibilizar as aulas</p>
+      <span>PIN:</span><input type="password" class="pass" id="pass">
+      <button onclick="get()">Verificar</button>
+      </div>
+      <main id="total">
+        <div id="u" class="disp">
+        <h4>Jogos de palavras da aula 1</h4>
+        <button onclick="ver()">Jogar</button>
+        <hr>
+
+        <div class="dar" id="todo"> 
+            <h4>Jogos de palavras da aula 2</h4>
+            <button onclick="po1()">Jogar</button>
+            </div>
+    
+        </div>
+      </main>
+
+        <div id="esc" class="go">
+        <h4>1.Escolha a tradução correcta </h4>
+        <h4 class="cabe">Esperaça</h4>
+    <label><p></p><input type="radio" name="yap"> <span>butter</span></p></label> 
+   <label><p><input type="radio" name="yap"> <span>car</span></p></label>
+   <label><p><input type="radio" id="oi" name="yap"> <span>hope</span></p></label>
+   <label><p><input type="radio"  name="yap"> <span>love</span></p></label>
+ <button onclick="li()">Verificar</button>
+ </div>
+ <div id="esc1" class="go">
+    <h4>2.Escolha a tradução correcta </h4>
+    <h4 class="cabe">Livro</h4>
+<label><p></p><input type="radio" name="yap"> <span>money</span></p></label> 
+<label><p><input type="radio" id="oi1" name="yap"> <span>book</span></p></label>
+<label><p><input type="radio"  name="yap"> <span>dog</span></p></label>
+<label><p><input type="radio" name="yap" > <span>butter</span></p></label>
+<button onclick="li1()">Verificar</button>
+</div>
+<div id="esc2" class="go">
+    <h4>3.Escolha a tradução correcta </h4>
+    <h4 class="cabe">Amizade</h4>
+<label><p></p><input type="radio" name="yap"> <span>house</span></p></label> 
+<label><p><input type="radio" name="yap"> <span>cat</span></p></label>
+<label><p><input type="radio" id="oi2" name="yap"> <span>friendship</span></p></label>
+<button onclick="li2()">Verificar</button>
+</div>
+<div id="esc3" class="go">
+    <h4>4.Escolha a tradução correcta </h4>
+    <h4 class="cabe">Leite</h4>
+<label><p></p><input type="radio" name="yap"> <span>chair</span></p></label> 
+<label><p><input type="radio" name="yap"> <span>table</span></p></label>
+<label><p><input type="radio" name="yap" > <span>pencil</span></p></label>
+<label><p><input type="radio" id="oi3"  name="yap"> <span>milk</span></p></label>
+<button onclick="li3()">Verificar</button>
+</div>
+<div id ="esc4" class="go">
+    <h4>5.Escolha a tradução correcta </h4>
+    <h4 class="cabe">caixa</h4>
+<label><p></p><input type="radio" name="yap"> <span>potato</span></p></label> 
+<label><p><input type="radio" id="oi4" name="yap"> <span>box</span></p></label>
+<label><p><input type="radio" name="yap" > <span>church</span></p></label>
+<label><p><input type="radio" name="yap"> <span>bus</span></p></label>
+<button onclick="li4()">Verificar</button>
+</div>
+
+   <p id="j"></p>
+   <div id="repi" class="repi">
+    <button onclick="repita()">Repetir</button>
+   </div>
+   <div class="fi" id="fi" onclick="fi()">
+    <button>Finalizar</button>
+   </div>
+
+       <div id="esco" class="go">
+        <h4>1.Escolha a tradução correcta </h4>
+        <h4 class="cabe">Coelho</h4>
+    <label><p></p><input type="radio" name="yap"> <span>Orange</span></p></label> 
+   <label><p><input type="radio" name="yap"> <span>Egg</span></p></label>
+   <label><p><input type="radio" id="ok" name="yap"> <span>Doll</span></p></label>
+   <label><p><input type="radio"  name="yap" id="okk"> <span>Rabbit</span></p></label>
+ <button onclick="la()">Verificar</button>
+ </div>
+ <div id="esco1" class="go">
+    <h4>2.Escolha a tradução correcta </h4>
+    <h4 class="cabe">Cavalo</h4>
+<label><p></p><input type="radio" name="yap"> <span>Dog</span></p></label> 
+<label><p><input type="radio"  name="yap"> <span>Car</span></p></label>
+<label><p><input type="radio"  name="yap" id="okk1"> <span>Horse</span></p></label>
+<label><p><input type="radio" name="yap" > <span>Hour</span></p></label>
+<button onclick="la1()">Verificar</button>
+</div>
+<div id="esco2" class="go">
+    <h4>3.Escolha a tradução correcta </h4>
+    <h4 class="cabe">Guarda-chuva</h4>
+<label><p></p><input type="radio" name="yap" id="okk2"> <span>Umbrella</span></p></label> 
+<label><p><input type="radio" name="yap"> <span>Dolphin</span></p></label>
+<label><p><input type="radio"  name="yap"> <span>friendship</span></p></label>
+<button onclick="la2()">Verificar</button>
+</div>
+<div id="esco3" class="go">
+    <h4>4.Escolha a tradução correcta </h4>
+    <h4 class="cabe">Sol</h4>
+<label><p></p><input type="radio" name="yap"> <span>Girl</span></p></label> 
+<label><p><input type="radio" name="yap" id="okk3"> <span>Sun</span></p></label>
+<label><p><input type="radio" name="yap" > <span>pencil</span></p></label>
+<label><p><input type="radio" id="oi3"  name="yap"> <span>Spanish</span></p></label>
+<button onclick="la3()">Verificar</button>
+</div>
+<div id="esco4" class="go">
+    <h4>5.Escolha a tradução correcta </h4>
+    <h4 class="cabe">Menino</h4>
+<label><p></p><input type="radio" name="yap"> <span>Guitar</span></p></label> 
+<label><p><input type="radio" id="oi4" name="yap"> <span>Parrot</span></p></label>
+<label><p><input type="radio" name="yap" id="okk4" > <span>Boy</span></p></label>
+<label><p><input type="radio" name="yap"> <span>apple</span></p></label>
+<button onclick="la4()">Verificar</button>
+</div>
+
+   <div id="repi1" class="repi1">
+    <button onclick="repita1()">Repetir</button>
+   </div>
+   <div class="fi" id="fi1" onclick="fi1()">
+    <button>Finalizar</button>
+   </div>
+    <script src="jogo.js"></script>
+    </div>
+</body>
+</html>
