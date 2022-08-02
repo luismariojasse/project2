@@ -26,7 +26,6 @@ var todo = document.getElementById("todo")
       pot ++
       n2.style.display="none"
       np.style.display="block"
-      n1.innerHTML=pot
     }
      
     n2.style.display="none"
@@ -40,7 +39,6 @@ var todo = document.getElementById("todo")
       pot ++
       n2.style.display="none"
       np1.style.display="block"
-      n1.innerHTML=pot
     }
     n2.style.display="none"
     np1.style.display="block"
@@ -52,7 +50,6 @@ var todo = document.getElementById("todo")
       pot ++
       n2.style.display="none"
       np2.style.display="block"
-      n1.innerHTML=pot
     }
     n2.style.display="none"
     np2.style.display="block"
@@ -65,7 +62,6 @@ var todo = document.getElementById("todo")
       pot ++
       n2.style.display="none"
       np3.style.display="block"
-      n1.innerHTML=pot
     }
     n2.style.display="none"
     np3.style.display="block"
