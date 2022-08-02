@@ -129,7 +129,6 @@ var todo = document.getElementById("todo")
       pot ++
       n2.style.display="none"
       m.style.display="block"
-      n1.innerHTML=pot
     } 
      n2.style.display="none"
     m.style.display="block"  
@@ -141,7 +140,6 @@ var todo = document.getElementById("todo")
       pot ++
       n2.style.display="none"
       m1.style.display="block"
-      n1.innerHTML=pot
     } 
      n2.style.display="none"
     m1.style.display="block"  
@@ -153,7 +151,6 @@ var todo = document.getElementById("todo")
       pot ++
       n2.style.display="none"
       m2.style.display="block"
-      n1.innerHTML=pot
     } 
      n2.style.display="none"
     m2.style.display="block"  
@@ -165,7 +162,6 @@ var todo = document.getElementById("todo")
       pot ++
       n2.style.display="none"
       m3.style.display="block"
-      n1.innerHTML=pot
     } 
      n2.style.display="none"
     m3.style.display="block"  
