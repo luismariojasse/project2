@@ -76,7 +76,6 @@ input:checked~nav{
     z-index: -1;
 }
 .sec{
-z-index: -1;
 position: relative;
 top:300px;
 background-color: rgb(180, 189, 180);
