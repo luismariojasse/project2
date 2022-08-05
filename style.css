@@ -88,3 +88,6 @@ background-color: rgb(180, 189, 180);
 li{
     margin-bottom: 20px;
 }
+body{
+    z-index: -2;
+}
