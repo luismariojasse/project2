@@ -67,5 +67,11 @@ button{
     width: 60px;
 }
 .disp{
-    display:none
+}.conte{
+    margin-left:1%;
+    margin-top: 10px;
+    display: flex;
+    width:300px;
 }
+
+

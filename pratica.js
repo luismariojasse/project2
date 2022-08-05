@@ -63,6 +63,7 @@ ko3.style.display="block"
   ko3.style.display="none"
   ko1.style.display="block" 
   k.style.display="none"
+  pra.style.display="none"
   n=0
   nr=0
 
@@ -134,22 +135,24 @@ if( gol1.value.toUpperCase() == "AN"){
    }else{
       mos.innerHTML=`OOps você não acertou amaioria das perguntas, recomendamos que faça novamente`
       nr=0
+      ko3.style.display="block"
+
    }
 
 
 }
 function h2(){
-   k.style.display="block"
+  k.style.display="block"
     ko1.style.display="none"
    }
-   function get(){
-      if(jiy.value == "lu*"){
-          ko1.style.display="block"
-         para.style.display="none"
+  // function get(){
+    //  if(jiy.value == "lu*"){
+      //    ko1.style.display="block"
+      //   para.style.display="none"
 
 
-      }
+    //  }
   
-  }
+ // }
   
 

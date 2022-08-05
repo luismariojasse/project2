@@ -46,7 +46,10 @@ p{
 .pass{
     width:60px;
 }
-.father{
-    display:none;
 
+.conte{
+    margin-left:5%;
+    margin-top: 10px;
+    display: flex;
+    width:300px;
 }
