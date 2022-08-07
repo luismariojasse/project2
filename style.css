@@ -82,3 +82,6 @@ top: 50;
     margin: 25px;
     line-height: 29px;
 }
+.jik{
+z-index: -2;
+}
